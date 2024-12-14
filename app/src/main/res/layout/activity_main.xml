@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#FEFEFE"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_alert"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#C72D40"
+        app:cornerRadius="5dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_custom"
+        android:layout_width="180dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#C72D40"
+        app:cornerRadius="5dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_fragment"
+        android:layout_width="180dp"
+        android:textSize="17sp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="#C72D40"
+        android:text="Fragment Dialog"
+        app:cornerRadius="5dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_date"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#C72D40"
+        android:text="DatePicker Dialog"
+        app:cornerRadius="5dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_time"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#C72D40"
+        android:text="TimePicker Dialog"
+        app:cornerRadius="5dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_bottom"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#C72D40"
+        android:text="BottomSheet Dialog"
+        app:cornerRadius="5dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_snackbar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#C72D40"
+        android:text="Snackbar"
+        app:cornerRadius="5dp"/>
+</LinearLayout>
